@@ -1,10 +1,15 @@
-import { 
-  Card, CardContent, CardHeader, CardTitle 
-} from '@/components/ui/card';
-import { 
-  Shield, Lock, Eye, UserCheck, Database, FileText, 
-  MailIcon, PhoneIcon, MapPin 
-} from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Shield,
+  Lock,
+  Eye,
+  UserCheck,
+  Database,
+  FileText,
+  MailIcon,
+  PhoneIcon,
+  MapPin,
+} from "lucide-react";
 
 export default function PrivacyPolicy() {
   return (
@@ -27,9 +32,9 @@ export default function PrivacyPolicy() {
           </CardHeader>
           <CardContent>
             <p>
-              We collect information that you provide directly to us, such as when
-              you create an account, update your profile, or use interactive
-              features of our services.
+              We collect information that you provide directly to us, such as
+              when you create an account, update your profile, or use
+              interactive features of our services.
             </p>
           </CardContent>
         </Card>
@@ -43,9 +48,9 @@ export default function PrivacyPolicy() {
           </CardHeader>
           <CardContent>
             <p>
-              We use the information we collect to provide, maintain, and improve
-              our services, to develop new services, and to protect our company and
-              our users.
+              We use the information we collect to provide, maintain, and
+              improve our services, to develop new services, and to protect our
+              company and our users.
             </p>
           </CardContent>
         </Card>
@@ -60,9 +65,9 @@ export default function PrivacyPolicy() {
           <CardContent>
             <p>
               We do not share your personal information with companies,
-              organizations, or individuals outside of our organization except in
-              the following cases: with your consent, for legal reasons, or to
-              protect rights and safety.
+              organizations, or individuals outside of our organization except
+              in the following cases: with your consent, for legal reasons, or
+              to protect rights and safety.
             </p>
           </CardContent>
         </Card>
@@ -77,8 +82,8 @@ export default function PrivacyPolicy() {
           <CardContent>
             <p>
               We work hard to protect our users from unauthorized access to or
-              unauthorized alteration, disclosure, or destruction of information we
-              hold. We implement strong security measures and regular audits.
+              unauthorized alteration, disclosure, or destruction of information
+              we hold. We implement strong security measures and regular audits.
             </p>
           </CardContent>
         </Card>
@@ -94,13 +99,13 @@ export default function PrivacyPolicy() {
           </CardHeader>
           <CardContent>
             <p className="mb-4">
-              If you have any questions about this Privacy Policy, please contact
-              us:
+              If you have any questions about this Privacy Policy, please
+              contact us:
             </p>
             <div className="space-y-2">
               <div className="flex items-center text-sm">
                 <MailIcon className="h-4 w-4 mr-2 text-indigo-600" />
-                <span>privacy@staysmart.in</span>
+                <span>privacy@rentok.in</span>
               </div>
               <div className="flex items-center text-sm">
                 <PhoneIcon className="h-4 w-4 mr-2 text-indigo-600" />

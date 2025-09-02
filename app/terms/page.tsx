@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { FileText, Scale, Shield, AlertTriangle, Users, CreditCard, Mail, Phone, MapPin } from 'lucide-react';
+import { FileText, Scale, Shield, AlertTriangle, Users, CreditCard, MailIcon, Phone, MapPin } from 'lucide-react';
 
 export const metadata = {
   title: 'Terms of Service - StaySmart',
@@ -201,7 +201,7 @@ export default function TermsPage() {
               </p>
               <div className="space-y-2">
                 <div className="flex items-center text-sm">
-                  <Mail className="h-4 w-4 mr-2 text-indigo-600" />
+                  <MailIcon className="h-4 w-4 mr-2 text-indigo-600" />
                   <span>legal@staysmart.in</span>
                 </div>
                 <div className="flex items-center text-sm">
