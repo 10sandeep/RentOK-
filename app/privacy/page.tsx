@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Shield, Lock, Eye, UserCheck, Database, FileText } from 'lucide-react';
+import { Shield, Lock, Eye, UserCheck, Database, FileText,Mail,Phone,MapPin } from 'lucide-react';
 
 export const metadata = {
   title: 'Privacy Policy - StaySmart',
