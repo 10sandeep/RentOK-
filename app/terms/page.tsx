@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { FileText, Scale, Shield, AlertTriangle, Users, CreditCard } from 'lucide-react';
+import { FileText, Scale, Shield, AlertTriangle, Users, CreditCard, Mail, Phone, MapPin } from 'lucide-react';
 
 export const metadata = {
   title: 'Terms of Service - StaySmart',
